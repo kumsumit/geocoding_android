@@ -1,41 +1,24 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
+plugins {
+    id("com.android.library")
+}
+
 group = "com.baseflow.geocoding"
 version = "1.0-SNAPSHOT"
 
-buildscript {
-    ext.kotlin_version = "2.3.10"
-    repositories {
+repositories {
         google()
         mavenCentral()
     }
-
-    dependencies {
-        classpath("com.android.tools.build:gradle:8.13.2")
-        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version")
-    }
-}
-
-allprojects {
-    repositories {
-        google()
-        mavenCentral()
-    }
-}
-
-apply plugin: "com.android.library"
-apply plugin: "kotlin-android"
 
 android {
     namespace = "com.baseflow.geocoding"
-
-    compileSdk = 36
+    compileSdk = 37
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
-    }
-
-    kotlinOptions {
-        jvmTarget = JavaVersion.VERSION_21
     }
 
     defaultConfig {
@@ -44,7 +27,7 @@ android {
 
     dependencies {
         testImplementation("org.jetbrains.kotlin:kotlin-test")
-        testImplementation("org.mockito:mockito-core:5.21.0")
+        testImplementation("org.mockito:mockito-core:5.23.0")
     }
 
     testOptions {
@@ -57,5 +40,11 @@ android {
                showStandardStreams = true
             }
         }
+    }
+}
+
+kotlin {
+    compilerOptions {
+        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
     }
 }

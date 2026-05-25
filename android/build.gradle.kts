@@ -1,3 +1,5 @@
+import com.android.build.api.dsl.LibraryExtension
+import org.gradle.api.tasks.testing.logging.TestLogEvent
 import org.jetbrains.kotlin.gradle.dsl.JvmTarget
 
 plugins {
@@ -8,36 +10,43 @@ group = "com.baseflow.geocoding"
 version = "1.0-SNAPSHOT"
 
 repositories {
-        google()
-        mavenCentral()
-    }
+    google()
+    mavenCentral()
+}
 
-android {
+extensions.configure<LibraryExtension>("android") {
+
     namespace = "com.baseflow.geocoding"
+
     compileSdk = 37
+
+    defaultConfig {
+        minSdk = 24
+    }
 
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_21
         targetCompatibility = JavaVersion.VERSION_21
     }
 
-    defaultConfig {
-        minSdk = 24
-    }
-
-    dependencies {
-        testImplementation("org.jetbrains.kotlin:kotlin-test")
-        testImplementation("org.mockito:mockito-core:5.23.0")
-    }
-
     testOptions {
         unitTests.all {
-            useJUnitPlatform()
 
-            testLogging {
-               events "passed", "skipped", "failed", "standardOut", "standardError"
-               outputs.upToDateWhen {false}
-               showStandardStreams = true
+            it.useJUnitPlatform()
+
+            it.outputs.upToDateWhen { false }
+
+            it.testLogging {
+
+                events(
+                    TestLogEvent.PASSED,
+                    TestLogEvent.SKIPPED,
+                    TestLogEvent.FAILED,
+                    TestLogEvent.STANDARD_OUT,
+                    TestLogEvent.STANDARD_ERROR
+                )
+
+                showStandardStreams = true
             }
         }
     }
@@ -45,6 +54,11 @@ android {
 
 kotlin {
     compilerOptions {
-        jvmTarget = org.jetbrains.kotlin.gradle.dsl.JvmTarget.JVM_21
+        jvmTarget.set(JvmTarget.JVM_21)
     }
+}
+
+dependencies {
+    testImplementation(kotlin("test"))
+    testImplementation("org.mockito:mockito-core:5.23.0")
 }

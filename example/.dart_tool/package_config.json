@@ -2,52 +2,22 @@
   "configVersion": 2,
   "packages": [
     {
-      "name": "_fe_analyzer_shared",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/_fe_analyzer_shared-103.0.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.11"
-    },
-    {
-      "name": "analyzer",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/analyzer-13.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.11"
-    },
-    {
-      "name": "args",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/args-2.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
       "name": "async",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/async-2.13.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
+      "name": "baseflow_plugin_template",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/baseflow_plugin_template-aa3a3e0ce0d20d9a566193ad1be12faf6c167f8a/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/boolean_selector-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "3.1"
-    },
-    {
-      "name": "build",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/build-4.0.6",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "built_collection",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/built_collection-5.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
-      "name": "built_value",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/built_value-8.12.6",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
     },
     {
       "name": "characters",
@@ -62,34 +32,10 @@
       "languageVersion": "3.4"
     },
     {
-      "name": "code_builder",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/code_builder-4.11.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
       "name": "collection",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/collection-1.19.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
-    },
-    {
-      "name": "convert",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/convert-3.1.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "crypto",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/crypto-3.0.7",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
-      "name": "dart_style",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/dart_style-3.1.9",
-      "packageUri": "lib/",
-      "languageVersion": "3.10"
     },
     {
       "name": "fake_async",
@@ -104,14 +50,14 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "fixnum",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/fixnum-1.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.1"
-    },
-    {
       "name": "flutter",
       "rootUri": "file:///Users/amitsharan/development/flutter/packages/flutter",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "flutter_driver",
+      "rootUri": "file:///Users/amitsharan/development/flutter/packages/flutter_driver",
       "packageUri": "lib/",
       "languageVersion": "3.12"
     },
@@ -128,22 +74,34 @@
       "languageVersion": "3.12"
     },
     {
+      "name": "flutter_web_plugins",
+      "rootUri": "file:///Users/amitsharan/development/flutter/packages/flutter_web_plugins",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "fuchsia_remote_debug_protocol",
+      "rootUri": "file:///Users/amitsharan/development/flutter/packages/fuchsia_remote_debug_protocol",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "geocoding_android",
+      "rootUri": "../../",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
       "name": "geocoding_platform_interface",
       "rootUri": "file:///Users/amitsharan/.pub-cache/git/geocoding_platform_interface-2dfba5f39f8d8f9fd68fabc9a86e7b7f025659db/",
       "packageUri": "lib/",
       "languageVersion": "3.12"
     },
     {
-      "name": "glob",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/glob-2.1.3",
+      "name": "integration_test",
+      "rootUri": "file:///Users/amitsharan/development/flutter/packages/integration_test",
       "packageUri": "lib/",
-      "languageVersion": "3.3"
-    },
-    {
-      "name": "graphs",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/graphs-2.3.2",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.12"
     },
     {
       "name": "leak_tracker",
@@ -170,12 +128,6 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "logging",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/logging-1.3.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
       "name": "matcher",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/matcher-0.12.20",
       "packageUri": "lib/",
@@ -194,28 +146,16 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "mockito",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/mockito-5.7.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.7"
-    },
-    {
-      "name": "package_config",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/package_config-2.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.4"
-    },
-    {
       "name": "path",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/path-1.9.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
-      "name": "pigeon",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/git/pigeon-f58b2fd4d44f7364e5085950c04af1eadc5f4640/",
+      "name": "platform",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/platform-3.1.6",
       "packageUri": "lib/",
-      "languageVersion": "3.12"
+      "languageVersion": "3.2"
     },
     {
       "name": "plugin_platform_interface",
@@ -224,22 +164,16 @@
       "languageVersion": "3.8"
     },
     {
-      "name": "pub_semver",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/pub_semver-2.2.0",
+      "name": "process",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/process-5.0.5",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.5"
     },
     {
       "name": "sky_engine",
       "rootUri": "file:///Users/amitsharan/development/flutter/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.10"
-    },
-    {
-      "name": "source_gen",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/source_gen-4.2.3",
-      "packageUri": "lib/",
-      "languageVersion": "3.9"
     },
     {
       "name": "source_span",
@@ -266,6 +200,12 @@
       "languageVersion": "3.1"
     },
     {
+      "name": "sync_http",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/sync_http-0.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "term_glyph",
       "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/term_glyph-1.2.2",
       "packageUri": "lib/",
@@ -278,10 +218,52 @@
       "languageVersion": "3.10"
     },
     {
-      "name": "typed_data",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/typed_data-1.4.0",
+      "name": "url_launcher",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher-eff7a563912e771ecbdaf783d7ddd1a26e584d19/",
       "packageUri": "lib/",
-      "languageVersion": "3.5"
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_android",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_android-be1dee351d0b445f6bf99205d0f99ea7ed72550e/",
+      "packageUri": "lib/",
+      "languageVersion": "3.12"
+    },
+    {
+      "name": "url_launcher_ios",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_ios-6bee057709a4d0eeae60a9169101870c7ba14490/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_linux",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_linux-a08e988c38b8f1783a881993c3fc4717d06711d6/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_macos",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_macos-e9ebbd6921d55098f094b9fb025bc9caa58280a7/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_platform_interface",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_platform_interface-b5ca29ecbf17fc7c3914948bf2986248ee894759/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_web",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_web-ce748c65d1a40d0c0f71fd79ea058a0d4799ad86/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
+    },
+    {
+      "name": "url_launcher_windows",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/git/url_launcher_windows-1697f91a996f13ae3adfc3f0264d43c2fd1499bd/",
+      "packageUri": "lib/",
+      "languageVersion": "3.3"
     },
     {
       "name": "vector_math",
@@ -296,19 +278,19 @@
       "languageVersion": "3.5"
     },
     {
-      "name": "watcher",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/watcher-1.2.1",
+      "name": "web",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/web-1.1.1",
       "packageUri": "lib/",
       "languageVersion": "3.4"
     },
     {
-      "name": "yaml",
-      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/yaml-3.1.3",
+      "name": "webdriver",
+      "rootUri": "file:///Users/amitsharan/.pub-cache/hosted/pub.dev/webdriver-3.1.0",
       "packageUri": "lib/",
-      "languageVersion": "3.4"
+      "languageVersion": "3.1"
     },
     {
-      "name": "geocoding_android",
+      "name": "geocoding_andriod_example",
       "rootUri": "../",
       "packageUri": "lib/",
       "languageVersion": "3.12"
